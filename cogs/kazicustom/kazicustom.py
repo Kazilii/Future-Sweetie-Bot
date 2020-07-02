@@ -110,6 +110,8 @@ class Kazicustom(commands.Cog):
 		else:
 			user = author
 		await ctx.send(RNG(['***NO {user}! WHAT ARE YOU DOING!? GO TO SLEEP! GOSH!***'.format(user=user.upper()),
+							'***WHAT THE HECK {user}! IT\'S BED TIME!***'.format(user=user.upper()),
+							'***{user}! WHAT ARE YOU DOING!? IT\'S SLEEPY TIME!***'.format(user=user.upper()),
 							'***NO {user}, GO TO SLEEP, JEEZ, WHY ARE YOU STILL UP!?***'.format(user=user.upper())]))
 
 	@commands.command(hidden=True)
